@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pypp"
+version = "0.1.0"
+description = ""
+authors = ["wilypomegranate <wilypomegranate@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "*"
+mako = "^1.0"
+astor = "^0.7.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+pypp = 'pypp.main:main'
